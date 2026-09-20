@@ -1,0 +1,28 @@
+======================================================
+GUIA DE COMANDOS: DO COMPUTADOR PARA O GITHUB ONLINE
+======================================================
+
+1. NAVEGAR ATÉ A PASTA DO PROJETO NO SEU PC:
+   cd "C:/Caminho/Para/Sua/Pasta/Do/Projeto"
+
+2. INICIALIZAR O GIT (Se for a primeira vez na pasta):
+   git init
+
+3. VERIFICAR O STATUS DOS ARQUIVOS:
+   git status
+
+4. ADICIONAR OS ARQUIVOS PARA PREPARAÇÃO (Staging):
+   git add .
+
+5. CRIAR O COMMIT COM UMA MENSAGEM:
+   git commit -m "feat: adicionando arquivos do projeto"
+
+6. DEFINIR A BRANCH PRINCIPAL COMO MAIN:
+   git branch -M main
+
+7. CONECTAR A PASTA LOCAL AO REPOSITÓRIO ONLINE NO GITHUB:
+   (Substitua pelo link gerado na criação do repositório no GitHub)
+   git remote add origin https://github.com/SeuUsuario/SeuRepositorio.git
+
+8. SUBIR OS ARQUIVOS PARA O REPOSITÓRIO ONLINE:
+   git push -u origin main
