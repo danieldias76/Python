@@ -1,0 +1,16 @@
+=====================================================
+ GUIA: ATUALIZAR REPOSITÓRIO QUE JÁ EXISTE NO GITHUB
+=====================================================
+
+Toda vez que você criar um arquivo novo ou alterar 
+códigos existentes na pasta, rode estes 3 comandos:
+
+1. CAPTURAR TODAS AS ALTERAÇÕES DA PASTA
+   git add .
+
+2. SALVAR AS ALTERAÇÕES LOCALMENTE (com uma mensagem)
+   git commit -m "Descrição das alterações ou novos arquivos"
+
+3. ENVIAR AS ALTERAÇÕES PARA O GITHUB
+   git push
+=====================================================

@@ -1,0 +1,26 @@
+=====================================================
+ GUIA: CRIAR E SUBIR UMA NOVA PASTA PARA O GITHUB
+=====================================================
+
+1. CRIAR O ARQUIVO .GITIGNORE (opcional, mas recomendado)
+   No PowerShell, para ignorar a pasta de ambiente virtual:
+   echo .venv/ > .gitignore
+
+2. INICIALIZAR O GIT NA PASTA
+   git init
+
+3. SELECIONAR TODOS OS ARQUIVOS DA PASTA
+   git add .
+
+4. FAZER O PRIMEIRO COMMIT
+   git commit -m "Commit inicial do projeto"
+
+5. RENOMEAR A BRANCH PRINCIPAL PARA MAIN
+   git branch -M main
+
+6. CONECTAR COM O REPOSITÓRIO CRIADO NO SITE DO GITHUB
+   git remote add origin URL_DO_REPOSITORIO_AQUI
+
+7. ENVIAR OS ARQUIVOS PELA PRIMEIRA VEZ
+   git push -u origin main
+=====================================================
