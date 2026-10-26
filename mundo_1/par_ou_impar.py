@@ -1,4 +1,4 @@
-numero = int(input('Infomer um número:'))
+numero = int(input('Informe um número:'))
 
 if numero % 2 == 0:
     print(f'{numero:.0f} é par')
